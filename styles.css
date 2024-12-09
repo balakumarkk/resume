@@ -1,0 +1,42 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(49, 46, 46);
+	    color:auto;
+        }
+    	h1,h2,h3,p,li,table,a{
+        	color: #ecf2f8;
+  	}
+
+        header {
+            background-color: #5b528d;
+            color: white;
+            text-align: left;
+        }
+
+
+        hr {
+            color:"black"
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        .container > div {
+            flex: 1;
+        }
+
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        table th, table td {
+
+            text-align: left;
+        }
